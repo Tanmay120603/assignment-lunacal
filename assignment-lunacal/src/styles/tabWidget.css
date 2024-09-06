@@ -39,7 +39,7 @@
     box-shadow: 13.49px 16.87px 67.47px 8.43px #0A0A0A;    
 }
 .tab-content{
-    width: 85%;
+    width: 95%;
     height: 185px;
     color: #969696;
     font-size: 2rem;
@@ -49,4 +49,6 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
