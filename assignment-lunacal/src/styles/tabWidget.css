@@ -20,6 +20,7 @@
     color: #A3ADB2;
     font-size: 1.8rem;
     font-family: "Poppins", system-ui;
+    padding: 0px 8px;
 }
 .tab{
     display: flex;
@@ -35,8 +36,7 @@
 .activeTab{
     color: white;
     background-color:rgb(37, 42, 42);
-    box-shadow: 13.49px 16.87px 67.47px 8.43px #0A0A0A;
-    
+    box-shadow: 13.49px 16.87px 67.47px 8.43px #0A0A0A;    
 }
 .tab-content{
     width: 85%;
