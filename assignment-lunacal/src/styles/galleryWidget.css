@@ -1,0 +1,98 @@
+.gallery-container{
+    width: 90%;
+    height: 40%;
+    background: #363C43;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.gallery-header{
+    display: flex;
+    width: 85%;
+    height: 35%;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-img-btn{
+    border: none;
+    width: 131.32px;
+    height: 46px;
+    border-radius: 104px;
+    box-shadow: 0px 3.26px 3.26px 0px #FFFFFF26 inset, 0px 0px 48.91px 0px #FFFFFF0D inset, 9px 10px 7.1px 0px #00000066,-0.5px -0.5px 6.9px 0px #FFFFFF40;
+    background: #FFFFFF08;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.add-img-btn > span{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1.4rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-transform: uppercase;
+}
+.carousel-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    background: linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%);
+    box-shadow: 4px 5px 30px 5px #101213,-5px -3px 30px -10px #96BEE7;
+}
+.prev-img{
+    rotate: 180deg;
+}
+.gallery-header-left-section{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.gallery-header-left-section > p{
+    color: white;
+    background: #171717;
+    border-radius: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Poppins", system-ui;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-header-right-section{
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+    gap: 35px;
+}
+.carousel-btn-container{
+    display: flex;
+    gap: 15px;
+}
+.gallery-images-container{
+    height: 60%;
+    width: 85%;
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+} 
+.gallery-images-container > div{
+    height: 100%;
+    white-space: nowrap;
+    flex: 0 0 30%;
+}
+.gallery-images-container > div > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}

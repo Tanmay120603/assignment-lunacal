@@ -1,0 +1,24 @@
+.panel-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background: linear-gradient(180deg, #373E44 -100%, #191B1F 100%);
+}
+.left-panel-container{
+  width: 50%;
+  height: 100%;
+  background-color: transparent;
+}
+.right-panel-container{
+  width: 50%;
+  height: 100%;
+  box-shadow: 10px 10px 40px 10px #00000080;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+button:hover{
+  cursor: pointer;
+}
+

@@ -1,0 +1,17 @@
+.question-img{
+    position: absolute;
+    left: 2%;
+    top: 7%;
+}
+.sidebox-img{
+    position: absolute;
+    left: 2%;
+    top: 160px;
+}
+.horizontal-line{
+    background: linear-gradient(180deg, rgba(40, 40, 40, 0.1) 0%, rgba(248, 248, 248, 0.1) 100%),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+    height: 4px;
+    width: 80%;
+    border-radius: 2px;
+}
