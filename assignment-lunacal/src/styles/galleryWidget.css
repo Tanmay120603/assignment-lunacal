@@ -80,8 +80,8 @@
 .gallery-images-container{
     height: 60%;
     width: 90%;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    padding-left: 2%;
+    padding-right: 1%;
     display: flex;
     gap: 30px;
     overflow-x: scroll;
