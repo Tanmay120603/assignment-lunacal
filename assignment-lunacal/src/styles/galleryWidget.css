@@ -30,7 +30,7 @@
 .add-img-btn > span{
     color: #ffffff;
     font-weight: 800;
-    font-size: 1.4rem;
+    font-size: 14px;
     font-family: "Plus Jakarta Sans", sans-serif;
     text-transform: uppercase;
 }
@@ -58,7 +58,7 @@
     color: white;
     background: #171717;
     border-radius: 20px;
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 500;
     font-family: "Poppins", system-ui;
     width: 60%;

@@ -18,7 +18,7 @@
     background: #171717;
     height: 64px;
     color: #A3ADB2;
-    font-size: 1.8rem;
+    font-size: 18px;
     font-family: "Poppins", system-ui;
     padding: 0px 8px;
 }
@@ -42,7 +42,7 @@
     width: 95%;
     height: 185px;
     color: #969696;
-    font-size: 2rem;
+    font-size: 20px;
     font-family: "Plus Jakarta Sans", sans-serif;
     padding: 5px 0px 0px 10px;
     overflow-y: scroll;
