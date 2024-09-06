@@ -81,7 +81,7 @@
     height: 60%;
     width: 90%;
     padding-left: 2%;
-    padding-right: 1%;
+    padding-right: 2%;
     display: flex;
     gap: 30px;
     overflow-x: scroll;
@@ -90,7 +90,7 @@
 .gallery-images-container > div{
     height: 100%;
     white-space: nowrap;
-    flex: 0 0 30%;
+    flex: 0 0 27%;
 }
 .gallery-images-container > div > img{
     height: 100%;
